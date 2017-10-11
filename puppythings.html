@@ -13,47 +13,63 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<style>
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+</style>
+
   </head>
   <body>
+    <div class="container">
     <p>
-      Dougger the Pugger<br>
+      <h1>Dougger the Pugger</h1><br>
       Woof woof<br>
-      It's me, Doug!<br>
+      <small>It's me, Doug!</small><br>
     </p>
-    <p>
+    <span class="divider">
+    </span>
+    <div class="row justify-content-center">
+      <div class="col">
+    <p style="padding-bottom: 100px"> 
       Doug The Pug is a legend. He saves lives everyday with his overly charming snout and wheezy smile. The point of this game is to live like Doug. Take naps and eat treats, the way life should be lived.
     </p>
     <audio controls src="./349sound.wav"></audio>
     <p>
       Here is a chart that compares the features of our game to other silly pupper games.
     </p>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>Title</th>
-          <th>Has Sparty</th>
-          <th>Lets you play as Zeke the Wonder Dog</th>
-          <th>All the good graphics/VFX</th>
-          <th>Will make you sob wishing you had a pup too</th>
+          <th>Lets you choose when the dog barks</th>
+          <th>Lets you make your own puppy chow</th>
+          <th>Lets you snuggle with owner</th>
+          <th>Lets you run away from owner</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th>Puppy Treats</th>
+          <th>Spartan DAWGZ</th>
           <td>Yes</td>
           <td>Yes</td>
           <td>Yes</td>
           <td>No</td>
         </tr>
         <tr>
-          <th>Dogs With Claws</th>
+          <th>Pups to Dawgs</th>
           <td>No</td>
           <td>No</td>
           <td>No</td>
           <td>Yes</td>
         </tr>
         <tr>
-          <th>Puppy Galore</th>
+          <th>Zeke the Wonder Dog</th>
           <td>No</td>
           <td>No</td>
           <td>No</td>
@@ -61,8 +77,13 @@
         </tr>
       </tbody>
     </table>
+  </div></div>
     <p>
       This <a href="https://www.youtube.com/watch?v=hY7m5jjJ9mM" target="_blank">video</a> shows cats, which are clearly way worse thsan dogs because they are cats. Honestly, people need to stop buying small lions and start adopting more dogs.
     </p>
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hY7m5jjJ9mM" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
   </body>
 </html>
